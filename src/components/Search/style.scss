@@ -1,0 +1,52 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.card {
+  width: 600px;
+  position: relative;
+}
+
+.popup {
+  width: 100%;
+  position: relative;
+  top: -10px;
+  background-color: #fff;
+  padding: 12px 0;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.popupItem {
+  cursor: pointer;
+  padding: 8px;
+
+  &:hover {
+    background: #f3f3f3;
+  }
+}
+
+.search {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  padding: 8px 0 8px 18px;
+  margin-top: 30%;
+  box-sizing: border-box;
+
+  input {
+    width: 100%;
+    outline: none;
+    border: none;
+  }
+
+  button {
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    width: 40px;
+  }
+}
